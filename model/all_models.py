@@ -27,7 +27,7 @@ from xgboost import XGBClassifier
 # ------------------------------------------------------
 # 1. Load Dataset
 # ------------------------------------------------------
-df = pd.read_csv("emp_data.csv")
+df = pd.read_csv("/home/cloud/PycharmProjects/ML2/data/emp_data.csv")
 df.drop(columns=['employee_id'],inplace=True)
 
 
